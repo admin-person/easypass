@@ -1,13 +1,41 @@
 <!DOCTYPE html>
 <html lang="th">
 <head>
-    <base target="_top">
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>เว็บแอป</title>
+    <title>ระบบบันทึกยอดเงิน Easy Pass กพ.ทอ.</title>
+
+    <!-- Favicon สำหรับ Desktop/Mobile -->
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
+    <link rel="icon" type="image/png" sizes="48x48" href="favicon.png">
+
+    <!-- Icon สำหรับ iOS -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+
+    <!-- Icon สำหรับ Android/Chrome -->
+    <link rel="manifest" href="site.webmanifest">
+
+    <!-- Theme color สำหรับมือถือ -->
+    <meta name="theme-color" content="#ff6600">
+
+    <style>
+        /* ลบระยะขอบและล็อกไม่ให้เกิดตัวเลื่อนซ้ำซ้อน */
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden; /* ปิดตัวเลื่อนของหน้าหลัก GitHub */
+        }
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+            display: block;
+        }
+    </style>
 </head>
 <body>
-    <iframe style="width: 100%; height: 100vh;" scrolling="yes" src="https://script.google.com/macros/s/AKfycbxDgZVr_quONlUn3aw1yLGKfmk1p79AOhr2ifdI2eQb0qCnsGbPQFmTeI1YApPRJnlDFg/exec" frameborder="0"></iframe>
+    <iframe src="https://script.google.com/macros/s/AKfycbzKYGYgAE2gD_E7RamH0ElxG98VB5Od81CFRW4ZbtWCac4hN5X9HCiRhK3tEPj_ZHr1EA/exec" frameborder="0"></iframe>
 </body>
 </html>
